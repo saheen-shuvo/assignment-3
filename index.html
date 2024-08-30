@@ -20,7 +20,13 @@
 <style>
     .poppins-font{
     font-family: "Poppins", system-ui;
-}
+    }
+    .bg-img{
+      background-image: url('./assets/bg.jpg');
+      background-size: cover;
+      height: 800px;
+      width: 100%;
+    }
 </style>
 <body data-theme="light">
     <!-- Header-->
@@ -68,17 +74,17 @@
     <!-- Main -->
     <main>
       <!-- Design Thoughtful Section -->
-      <section class="hero bg-base-200 mt-24">
-          <div class="hero-content gap-10 flex-col-reverse py-20 lg:flex-row-reverse">
+      <section class="hero bg-base-200 mt-16 lg:mt-24">
+          <div class="hero-content gap-10 flex-col-reverse py-14 lg:py-20 lg:flex-row-reverse">
             <img
               src="./assets/Rectangle.png"
               class="w-full lg:w-2/4 h-full rounded-lg shadow-2xl" />
             <div>
               <div class="flex flex-col text-center lg:text-left">
                 <div class="-ml-8 mb-2 hidden lg:block"><img class="" src="./assets/Vector.png" alt=""></div>
-              <button class="btn bg-white text-black rounded-full py-1 mb-3 px-5 w-40 mx-auto lg:mx-0"><i class="fa-sharp fa-solid fa-arrow-right rounded-full p-1 border-none"></i>About Us</button>
-              <h1 class="text-2xl font-bold lg:text-5xl">We design thoughtful,<br> liveable spaces</h1>
-              <p class="py-3">
+              <button class="btn bg-white text-black rounded-full py-1 mb-3 px-5 w-40 mx-auto lg:mx-0"><i class="fa-sharp fa-solid fa-arrow-right rounded-full p-1 border-none poppins-font"></i>About Us</button>
+              <h1 class="text-2xl poppins-font font-bold lg:text-5xl">We design thoughtful,<br> liveable spaces</h1>
+              <p class="py-3 poppins-font">
                 The barn house captivates with its blend of rustic charm and 
 modern sophistication, featuring weathered wood, sleek metal accents.
               </p>
@@ -91,8 +97,8 @@ modern sophistication, featuring weathered wood, sleek metal accents.
                     alt="Movie" />
                 </div>
                 <div class="card-body">
-                  <h2 class="card-title">Commercial</h2>
-                  <p>The commercial apartments captivates with its mix of rustic natural and modern.</p>
+                  <h2 class="card-title poppins-font">Commercial</h2>
+                  <p class="poppins-font">The commercial apartments captivates with its mix of rustic natural and modern.</p>
                 </div>
               </div>
               <!-- Card-2 -->
@@ -103,21 +109,21 @@ modern sophistication, featuring weathered wood, sleek metal accents.
                     alt="Movie" />
                 </div>
                 <div class="card-body">
-                  <h2 class="card-title">Residential</h2>
-                  <p>The Residential Houses captivates with huge amount of rustic natural and modern.</p>
+                  <h2 class="card-title poppins-font">Residential</h2>
+                  <p class="poppins-font">The Residential Houses captivates with huge amount of rustic natural and modern.</p>
                 </div>
               </div>
             </div>
           </div>
       </section>
       <!-- Work Process Section -->
-      <section class="bg-base-200 pt-24 px-2 lg:px-24">
+      <section class="bg-base-200 pt-14 pb-24 lg:pt-20 px-2 lg:px-24">
         <!-- Text Content -->
          <div>
           <div class="flex flex-col">
             <button class="btn bg-white text-black rounded-full py-1 mb-3 px-5 w-44 mx-auto lg:w-48"><i class="fa-sharp fa-solid fa-arrow-right rounded-full p-1 border-none"></i>How we works</button>
-            <h1 class="text-2xl font-bold text-center lg:text-5xl">Our Works Process</h1>
-            <p class="py-6 text-center">Our work process is so attractive, its  modern sophistication, featuring weathered wood,<br> sleek metal accents. You will love the process how it runs.</p>
+            <h1 class="text-2xl poppins-font font-bold text-center lg:text-5xl">Our Works Process</h1>
+            <p class="py-6 text-center poppins-font">Our work process is so attractive, its  modern sophistication, featuring weathered wood,<br> sleek metal accents. You will love the process how it runs.</p>
           </div>
          </div>
          <!-- Grid Layout -->
@@ -131,8 +137,8 @@ modern sophistication, featuring weathered wood, sleek metal accents.
                     alt="Shoes" />
                 </figure>
                 <div class="card-body">
-                  <h2 class="card-title">Concept</h2>
-                  <p>A work-residential building combines living and working spaces, optimizing functionality and reducing commute times.</p>
+                  <h2 class="card-title poppins-font">Concept</h2>
+                  <p class="poppins-font">A work-residential building combines living and working spaces, optimizing functionality and reducing commute times.</p>
                 </div>
               </div>
              </div>
@@ -145,8 +151,8 @@ modern sophistication, featuring weathered wood, sleek metal accents.
                     alt="Shoes" />
                 </figure>
                 <div class="card-body">
-                  <h2 class="card-title">Design Process</h2>
-                  <p>The design process involves conceptualizing, creating, and refining ideas to solve problems and meet needs.</p>
+                  <h2 class="card-title poppins-font">Design Process</h2>
+                  <p class="poppins-font">The design process involves conceptualizing, creating, and refining ideas to solve problems and meet needs.</p>
                 </div>
               </div>
              </div>
@@ -159,8 +165,8 @@ modern sophistication, featuring weathered wood, sleek metal accents.
                     alt="Shoes" />
                 </figure>
                 <div class="card-body">
-                  <h2 class="card-title">Supervision</h2>
-                  <p>Supervision involves overseeing tasks and guiding individuals to ensure goals are met efficiently and effectively.</p>
+                  <h2 class="card-title poppins-font">Supervision</h2>
+                  <p class="poppins-font">Supervision involves overseeing tasks and guiding individuals to ensure goals are met efficiently and effectively.</p>
                 </div>
               </div>
              </div>
@@ -173,13 +179,47 @@ modern sophistication, featuring weathered wood, sleek metal accents.
                     alt="Shoes" />
                 </figure>
                 <div class="card-body">
-                  <h2 class="card-title">Budget Planning</h2>
-                  <p>Budget planning involves allocating financial resources, forecasting expenses, and managing funds to achieve financial goals.</p>
+                  <h2 class="card-title poppins-font">Budget Planning</h2>
+                  <p class="poppins-font">Budget planning involves allocating financial resources, forecasting expenses, and managing funds to achieve financial goals.</p>
                 </div>
               </div>
              </div>
           </div>
 
+      </section>
+      <!-- Lets Discuss Section -->
+      <section class="bg-img mt-5 px-2 lg:px-24">
+        <!-- Text Content -->
+         <div class="flex flex-col justify-center">
+          <button class="btn  poppins-font bg-[#9fec42bd] text-blue-950 rounded-full mt-20 mb-3 w-44 mx-auto lg:w-48"><i class="fa-sharp fa-solid fa-arrow-right rounded-full p-1  border-none"></i>Let's Connect</button>
+          <h1 class="text-2xl poppins-font font-bold text-center lg:text-5xl">Let’s Discuss Next Project</h1>
+          <p class="text-center poppins-font py-4">Let’s discuss our next project: goals, deadlines, and strategies to ensure successful completion and discuss <br>the next things, deadlines, and so on.</p>
+        </div>
+        <!-- Form Content Grid -->
+         <div class="grid grid-rows-2 grid-cols-2 gap-5">
+          <!-- Row-1 -->
+           <div>
+            <!-- first Name -->
+            <input type="text" placeholder="First Name*" class="input rounded-full input-bordered w-full py-7">
+           </div>
+           <div>
+            <!-- Last Name -->
+            <input type="text" placeholder="Last Name*" class="input rounded-full input-bordered w-full py-7">
+           </div>
+           <div>
+            <!-- Phone Number -->
+            <input type="text" placeholder="Phone Number*" class="input input-bordered rounded-full w-full py-7">
+           </div>
+           <div>
+            <!-- Email Address -->
+            <input type="text" placeholder="Email Address*" class="input input-bordered rounded-full w-full py-7">
+           </div>
+        </div>
+        <div>
+          <!-- Write Message -->
+          <input type="text" placeholder="Write Your Message Here*" class="placeholder:absolute placeholder:top-4 input input-bordered rounded-2xl w-full mt-7 h-56">
+        </div>
+        <div class="flex justify-center"><button class="btn poppins-font bg-[#9fec42] text-blue-950 rounded-full mt-10 mb-3 w-full mx-auto lg:w-full">Send Mail<i class="fa-sharp fa-solid fa-arrow-right rounded-full p-1 border-none bg-blue-950 text-white -rotate-45"></i></button></div>
       </section>
     </main>
 </body>
