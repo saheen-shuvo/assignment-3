@@ -21,12 +21,12 @@
     .poppins-font{
     font-family: "Poppins", system-ui;
     }
-    .bg-img{
+    /* .bg-img{
       background-image: url('./assets/bg.jpg');
       background-size: cover;
       height: 850px;
       width: 100%;
-    }
+    } */
 </style>
 <body data-theme="light">
     <!-- Header-->
@@ -239,7 +239,7 @@ modern sophistication, featuring weathered wood, sleek metal accents.
          </div>
        </section>
       <!-- Lets Discuss Section -->
-      <section class="bg-img my-3 px-2 lg:px-24">
+      <section class="bg-[url('./assets/bg.jpg')] bg-no-repeat bg-cover pb-20 px-3 lg:px-24">
         <!-- Text Content -->
          <div class="flex flex-col justify-center">
           <button class="btn border-none poppins-font bg-[#9fec42bd] text-blue-950 rounded-full mt-20 mb-3 w-44 mx-auto lg:w-48"><i class="fa-sharp fa-solid fa-arrow-right rounded-full p-1  border-none"></i>Let's Connect</button>
@@ -268,7 +268,7 @@ modern sophistication, featuring weathered wood, sleek metal accents.
         </div>
         <div>
           <!-- Write Message -->
-          <input type="text" placeholder="Write Your Message Here*" class="placeholder:absolute placeholder:top-4 input input-bordered rounded-2xl w-full mt-7 h-56">
+          <textarea class="w-full h-52 rounded-2xl mt-5 pl-4 pt-4 border-2" placeholder="Write Your Message Here*"></textarea>
         </div>
         <div class="flex justify-center"><button class="btn border-none poppins-font bg-[#9fec42] text-blue-950 rounded-full mt-10 mb-3 w-full mx-auto lg:w-full">Send Mail<i class="fa-sharp fa-solid fa-arrow-right rounded-full p-1 border-none bg-blue-950 text-white -rotate-45"></i></button></div>
       </section>
